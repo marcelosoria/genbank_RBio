@@ -1,2 +1,3 @@
 # genbank_with_R
-Manipulate gbk files in R/Bioconductor
+Handle gbk files in R/Bioconductor
+
