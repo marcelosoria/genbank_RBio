@@ -86,3 +86,4 @@ readGenBank(gba)
 
 readGenBank("giNC_000962.gb", partial=TRUE)
 gb_examp <- readGenBank(system.file("sample.gbk", package="genbankr"))
+
