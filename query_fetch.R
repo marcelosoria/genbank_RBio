@@ -57,7 +57,7 @@ mtu_h37rv_info
 mtu_h37Rv_ft <- entrez_fetch(db="nuccore", id="NC_000962", rettype="ft" )
 writeLines(mtu_h37Rv_ft, "NC_000962.ft")
 # CDS - nucleotida
-mtu_h37Rv_cds_nucl <- entrez_fetch(db="nuccore", id=NC_000962, rettype="fasta_cds_na")
+mtu_h37Rv_cds_nucl <- entrez_fetch(db="nuccore", id="NC_000962", rettype="fasta_cds_na")
 writeLines(mtu_h37Rv_cds_nucl, "NC_000962.fna")
 # CDS - aminoacid
 mtu_h37Rv_cds_aa <- entrez_fetch(db="nuccore", id="NC_000962", rettype="fasta_cds_aa")
